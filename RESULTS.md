@@ -26,7 +26,11 @@ The hybrid completes the listed primary test scenes by combining learned percept
 
 ![Learning curves](media/learning.png)
 
+The left panel tracks action-prediction loss on training batches and held-out validation frames. The middle panel separates three tasks: choosing the next action, locating the requested object, and classifying each grid cell. Object grounding reaches 100% on this validation split; action accuracy reaches 86.9%. The right panel shows elapsed CPU training time, not model performance.
+
 ![Failures and observation cost](media/failures_cost.png)
+
+The left chart breaks familiar-layout outcomes into success, timeout and contact with a protected object. `direct/k1` predicts one move per observation; `direct/k4` predicts a four-action chunk; `hybrid/k1` replans with A* from the learned map. The right chart counts network observations per episode, including episodes that failed. Chunking reduces calls but did not improve success here.
 
 ## Stress tests
 
