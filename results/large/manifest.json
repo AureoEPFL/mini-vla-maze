@@ -1,0 +1,59 @@
+{
+  "switchback": {
+    "accepted": [
+      800000,
+      800001,
+      800002,
+      800003,
+      800004,
+      800005
+    ],
+    "rejected": [],
+    "requested": 6
+  },
+  "catacombs": {
+    "accepted": [
+      810001,
+      810002,
+      810003,
+      810008,
+      810009,
+      810010
+    ],
+    "rejected": [
+      {
+        "seed": 810000,
+        "search_states": 624
+      },
+      {
+        "seed": 810004,
+        "search_states": 444
+      },
+      {
+        "seed": 810005,
+        "search_states": 444
+      },
+      {
+        "seed": 810006,
+        "search_states": 1255
+      },
+      {
+        "seed": 810007,
+        "search_states": 1748
+      }
+    ],
+    "requested": 6
+  },
+  "airlocks": {
+    "accepted": [
+      820000,
+      820001,
+      820002,
+      820003,
+      820004,
+      820005
+    ],
+    "rejected": [],
+    "requested": 6
+  }
+}

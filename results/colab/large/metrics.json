@@ -1,0 +1,62 @@
+{
+  "switchback/oracle": {
+    "successes": 6,
+    "episodes": 6,
+    "wilson_95": [
+      0.6096657083436265,
+      1.0
+    ],
+    "mean_steps": 92.5,
+    "mean_pushes": 70.66666666666667
+  },
+  "switchback/hybrid": {
+    "successes": 6,
+    "episodes": 6,
+    "wilson_95": [
+      0.6096657083436265,
+      1.0
+    ],
+    "mean_steps": 92.5,
+    "mean_pushes": 70.66666666666667
+  },
+  "catacombs/oracle": {
+    "successes": 6,
+    "episodes": 6,
+    "wilson_95": [
+      0.6096657083436265,
+      1.0
+    ],
+    "mean_steps": 59.0,
+    "mean_pushes": 49.333333333333336
+  },
+  "catacombs/hybrid": {
+    "successes": 6,
+    "episodes": 6,
+    "wilson_95": [
+      0.6096657083436265,
+      1.0
+    ],
+    "mean_steps": 59.0,
+    "mean_pushes": 49.333333333333336
+  },
+  "airlocks/oracle": {
+    "successes": 6,
+    "episodes": 6,
+    "wilson_95": [
+      0.6096657083436265,
+      1.0
+    ],
+    "mean_steps": 86.16666666666667,
+    "mean_pushes": 67.33333333333333
+  },
+  "airlocks/hybrid": {
+    "successes": 6,
+    "episodes": 6,
+    "wilson_95": [
+      0.6096657083436265,
+      1.0
+    ],
+    "mean_steps": 86.16666666666667,
+    "mean_pushes": 67.33333333333333
+  }
+}

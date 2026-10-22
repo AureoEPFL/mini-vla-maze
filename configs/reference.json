@@ -1,0 +1,19 @@
+{
+  "seed": 17,
+  "train_episodes": 320,
+  "validation_episodes": 40,
+  "updates": 1800,
+  "batch_size": 64,
+  "learning_rate": 0.0007,
+  "horizon": 4,
+  "test_episodes_per_suite": 16,
+  "train_seed_start": 10000,
+  "validation_seed_start": 100000,
+  "test_seed_start": 200000,
+  "test_seed_stride": 10000,
+  "heldout_identity": "blue disk",
+  "heldout_layouts": [
+    "rotor",
+    "tower"
+  ]
+}

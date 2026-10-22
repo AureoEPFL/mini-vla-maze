@@ -1,0 +1,617 @@
+{
+  "open/oracle/k1": {
+    "successes": 16,
+    "episodes": 16,
+    "rate": 1.0,
+    "wilson_95": [
+      0.8063923170025951,
+      1.0
+    ],
+    "mean_steps": 14.3125,
+    "mean_collisions": 0.0,
+    "mean_model_calls": 0.0,
+    "mean_planner_calls": 0.0,
+    "mean_pushes": 8.0,
+    "mean_waits": 0.0
+  },
+  "open/direct/k1": {
+    "successes": 5,
+    "episodes": 16,
+    "rate": 0.3125,
+    "wilson_95": [
+      0.14164643765150897,
+      0.5559564434725178
+    ],
+    "mean_steps": 48.1875,
+    "mean_collisions": 6.5,
+    "mean_model_calls": 48.1875,
+    "mean_planner_calls": 0.0,
+    "mean_pushes": 2.625,
+    "mean_waits": 0.0
+  },
+  "open/direct/k4": {
+    "successes": 3,
+    "episodes": 16,
+    "rate": 0.1875,
+    "wilson_95": [
+      0.06591599019788683,
+      0.4300888116754912
+    ],
+    "mean_steps": 54.5625,
+    "mean_collisions": 15.125,
+    "mean_model_calls": 13.8125,
+    "mean_planner_calls": 0.0,
+    "mean_pushes": 1.375,
+    "mean_waits": 16.5625
+  },
+  "open/hybrid/k1": {
+    "successes": 16,
+    "episodes": 16,
+    "rate": 1.0,
+    "wilson_95": [
+      0.8063923170025951,
+      1.0
+    ],
+    "mean_steps": 14.3125,
+    "mean_collisions": 0.0,
+    "mean_model_calls": 14.3125,
+    "mean_planner_calls": 1.0,
+    "mean_pushes": 8.0,
+    "mean_waits": 0.0
+  },
+  "baffles/oracle/k1": {
+    "successes": 16,
+    "episodes": 16,
+    "rate": 1.0,
+    "wilson_95": [
+      0.8063923170025951,
+      1.0
+    ],
+    "mean_steps": 17.9375,
+    "mean_collisions": 0.0,
+    "mean_model_calls": 0.0,
+    "mean_planner_calls": 0.0,
+    "mean_pushes": 9.1875,
+    "mean_waits": 0.0
+  },
+  "baffles/direct/k1": {
+    "successes": 4,
+    "episodes": 16,
+    "rate": 0.25,
+    "wilson_95": [
+      0.10182067420167085,
+      0.4949831672970316
+    ],
+    "mean_steps": 54.4375,
+    "mean_collisions": 31.125,
+    "mean_model_calls": 54.4375,
+    "mean_planner_calls": 0.0,
+    "mean_pushes": 2.625,
+    "mean_waits": 0.0
+  },
+  "baffles/direct/k4": {
+    "successes": 2,
+    "episodes": 16,
+    "rate": 0.125,
+    "wilson_95": [
+      0.03497748742626902,
+      0.36022827482178466
+    ],
+    "mean_steps": 48.0,
+    "mean_collisions": 19.1875,
+    "mean_model_calls": 12.125,
+    "mean_planner_calls": 0.0,
+    "mean_pushes": 2.0,
+    "mean_waits": 2.5625
+  },
+  "baffles/hybrid/k1": {
+    "successes": 16,
+    "episodes": 16,
+    "rate": 1.0,
+    "wilson_95": [
+      0.8063923170025951,
+      1.0
+    ],
+    "mean_steps": 17.9375,
+    "mean_collisions": 0.0,
+    "mean_model_calls": 17.9375,
+    "mean_planner_calls": 1.0,
+    "mean_pushes": 9.1875,
+    "mean_waits": 0.0
+  },
+  "gate/oracle/k1": {
+    "successes": 16,
+    "episodes": 16,
+    "rate": 1.0,
+    "wilson_95": [
+      0.8063923170025951,
+      1.0
+    ],
+    "mean_steps": 20.9375,
+    "mean_collisions": 0.0,
+    "mean_model_calls": 0.0,
+    "mean_planner_calls": 0.0,
+    "mean_pushes": 9.5625,
+    "mean_waits": 0.3125
+  },
+  "gate/direct/k1": {
+    "successes": 4,
+    "episodes": 16,
+    "rate": 0.25,
+    "wilson_95": [
+      0.10182067420167085,
+      0.4949831672970316
+    ],
+    "mean_steps": 61.9375,
+    "mean_collisions": 6.375,
+    "mean_model_calls": 61.9375,
+    "mean_planner_calls": 0.0,
+    "mean_pushes": 2.8125,
+    "mean_waits": 5.875
+  },
+  "gate/direct/k4": {
+    "successes": 2,
+    "episodes": 16,
+    "rate": 0.125,
+    "wilson_95": [
+      0.03497748742626902,
+      0.36022827482178466
+    ],
+    "mean_steps": 40.625,
+    "mean_collisions": 4.3125,
+    "mean_model_calls": 10.375,
+    "mean_planner_calls": 0.0,
+    "mean_pushes": 1.9375,
+    "mean_waits": 1.5
+  },
+  "gate/hybrid/k1": {
+    "successes": 16,
+    "episodes": 16,
+    "rate": 1.0,
+    "wilson_95": [
+      0.8063923170025951,
+      1.0
+    ],
+    "mean_steps": 20.9375,
+    "mean_collisions": 0.0,
+    "mean_model_calls": 20.9375,
+    "mean_planner_calls": 1.0,
+    "mean_pushes": 9.5625,
+    "mean_waits": 0.3125
+  },
+  "sweeper/oracle/k1": {
+    "successes": 16,
+    "episodes": 16,
+    "rate": 1.0,
+    "wilson_95": [
+      0.8063923170025951,
+      1.0
+    ],
+    "mean_steps": 14.9375,
+    "mean_collisions": 0.0,
+    "mean_model_calls": 0.0,
+    "mean_planner_calls": 0.0,
+    "mean_pushes": 8.4375,
+    "mean_waits": 0.0625
+  },
+  "sweeper/direct/k1": {
+    "successes": 4,
+    "episodes": 16,
+    "rate": 0.25,
+    "wilson_95": [
+      0.10182067420167085,
+      0.4949831672970316
+    ],
+    "mean_steps": 30.75,
+    "mean_collisions": 0.75,
+    "mean_model_calls": 30.75,
+    "mean_planner_calls": 0.0,
+    "mean_pushes": 2.0625,
+    "mean_waits": 0.0
+  },
+  "sweeper/direct/k4": {
+    "successes": 3,
+    "episodes": 16,
+    "rate": 0.1875,
+    "wilson_95": [
+      0.06591599019788683,
+      0.4300888116754912
+    ],
+    "mean_steps": 32.875,
+    "mean_collisions": 7.8125,
+    "mean_model_calls": 8.5,
+    "mean_planner_calls": 0.0,
+    "mean_pushes": 2.0625,
+    "mean_waits": 13.25
+  },
+  "sweeper/hybrid/k1": {
+    "successes": 16,
+    "episodes": 16,
+    "rate": 1.0,
+    "wilson_95": [
+      0.8063923170025951,
+      1.0
+    ],
+    "mean_steps": 14.9375,
+    "mean_collisions": 0.0,
+    "mean_model_calls": 14.9375,
+    "mean_planner_calls": 1.0,
+    "mean_pushes": 8.4375,
+    "mean_waits": 0.0625
+  },
+  "unseen_rotor/oracle/k1": {
+    "successes": 16,
+    "episodes": 16,
+    "rate": 1.0,
+    "wilson_95": [
+      0.8063923170025951,
+      1.0
+    ],
+    "mean_steps": 18.25,
+    "mean_collisions": 0.0,
+    "mean_model_calls": 0.0,
+    "mean_planner_calls": 0.0,
+    "mean_pushes": 9.25,
+    "mean_waits": 0.0
+  },
+  "unseen_rotor/direct/k1": {
+    "successes": 1,
+    "episodes": 16,
+    "rate": 0.0625,
+    "wilson_95": [
+      0.011119344641247308,
+      0.283287377981482
+    ],
+    "mean_steps": 88.1875,
+    "mean_collisions": 65.625,
+    "mean_model_calls": 88.1875,
+    "mean_planner_calls": 0.0,
+    "mean_pushes": 0.5,
+    "mean_waits": 0.0
+  },
+  "unseen_rotor/direct/k4": {
+    "successes": 1,
+    "episodes": 16,
+    "rate": 0.0625,
+    "wilson_95": [
+      0.011119344641247308,
+      0.283287377981482
+    ],
+    "mean_steps": 82.6875,
+    "mean_collisions": 42.25,
+    "mean_model_calls": 20.75,
+    "mean_planner_calls": 0.0,
+    "mean_pushes": 0.8125,
+    "mean_waits": 23.0625
+  },
+  "unseen_rotor/hybrid/k1": {
+    "successes": 16,
+    "episodes": 16,
+    "rate": 1.0,
+    "wilson_95": [
+      0.8063923170025951,
+      1.0
+    ],
+    "mean_steps": 18.25,
+    "mean_collisions": 0.0,
+    "mean_model_calls": 18.25,
+    "mean_planner_calls": 1.0,
+    "mean_pushes": 9.25,
+    "mean_waits": 0.0
+  },
+  "unseen_tower/oracle/k1": {
+    "successes": 16,
+    "episodes": 16,
+    "rate": 1.0,
+    "wilson_95": [
+      0.8063923170025951,
+      1.0
+    ],
+    "mean_steps": 18.6875,
+    "mean_collisions": 0.0,
+    "mean_model_calls": 0.0,
+    "mean_planner_calls": 0.0,
+    "mean_pushes": 8.875,
+    "mean_waits": 0.0
+  },
+  "unseen_tower/direct/k1": {
+    "successes": 0,
+    "episodes": 16,
+    "rate": 0.0,
+    "wilson_95": [
+      0.0,
+      0.1936076829974049
+    ],
+    "mean_steps": 70.3125,
+    "mean_collisions": 30.0,
+    "mean_model_calls": 70.3125,
+    "mean_planner_calls": 0.0,
+    "mean_pushes": 0.75,
+    "mean_waits": 0.0
+  },
+  "unseen_tower/direct/k4": {
+    "successes": 0,
+    "episodes": 16,
+    "rate": 0.0,
+    "wilson_95": [
+      0.0,
+      0.1936076829974049
+    ],
+    "mean_steps": 36.6875,
+    "mean_collisions": 21.0625,
+    "mean_model_calls": 9.4375,
+    "mean_planner_calls": 0.0,
+    "mean_pushes": 0.8125,
+    "mean_waits": 2.8125
+  },
+  "unseen_tower/hybrid/k1": {
+    "successes": 16,
+    "episodes": 16,
+    "rate": 1.0,
+    "wilson_95": [
+      0.8063923170025951,
+      1.0
+    ],
+    "mean_steps": 18.6875,
+    "mean_collisions": 0.0,
+    "mean_model_calls": 18.6875,
+    "mean_planner_calls": 1.0,
+    "mean_pushes": 8.875,
+    "mean_waits": 0.0
+  },
+  "heldout_blue_disk/oracle/k1": {
+    "successes": 16,
+    "episodes": 16,
+    "rate": 1.0,
+    "wilson_95": [
+      0.8063923170025951,
+      1.0
+    ],
+    "mean_steps": 18.75,
+    "mean_collisions": 0.0,
+    "mean_model_calls": 0.0,
+    "mean_planner_calls": 0.0,
+    "mean_pushes": 9.4375,
+    "mean_waits": 0.0
+  },
+  "heldout_blue_disk/direct/k1": {
+    "successes": 1,
+    "episodes": 16,
+    "rate": 0.0625,
+    "wilson_95": [
+      0.011119344641247308,
+      0.283287377981482
+    ],
+    "mean_steps": 64.3125,
+    "mean_collisions": 42.25,
+    "mean_model_calls": 64.3125,
+    "mean_planner_calls": 0.0,
+    "mean_pushes": 1.0625,
+    "mean_waits": 0.0
+  },
+  "heldout_blue_disk/direct/k4": {
+    "successes": 0,
+    "episodes": 16,
+    "rate": 0.0,
+    "wilson_95": [
+      0.0,
+      0.1936076829974049
+    ],
+    "mean_steps": 36.5625,
+    "mean_collisions": 9.25,
+    "mean_model_calls": 9.4375,
+    "mean_planner_calls": 0.0,
+    "mean_pushes": 1.375,
+    "mean_waits": 5.1875
+  },
+  "heldout_blue_disk/hybrid/k1": {
+    "successes": 16,
+    "episodes": 16,
+    "rate": 1.0,
+    "wilson_95": [
+      0.8063923170025951,
+      1.0
+    ],
+    "mean_steps": 18.75,
+    "mean_collisions": 0.0,
+    "mean_model_calls": 18.75,
+    "mean_planner_calls": 1.0,
+    "mean_pushes": 9.4375,
+    "mean_waits": 0.0
+  },
+  "wrong_shape/direct/k1": {
+    "successes": 2,
+    "episodes": 16,
+    "rate": 0.125,
+    "wilson_95": [
+      0.03497748742626902,
+      0.36022827482178466
+    ],
+    "mean_steps": 52.625,
+    "mean_collisions": 30.0,
+    "mean_model_calls": 52.625,
+    "mean_planner_calls": 0.0,
+    "mean_pushes": 1.3125,
+    "mean_waits": 0.0
+  },
+  "wrong_shape/hybrid/k1": {
+    "successes": 0,
+    "episodes": 16,
+    "rate": 0.0,
+    "wilson_95": [
+      0.0,
+      0.1936076829974049
+    ],
+    "mean_steps": 76.0625,
+    "mean_collisions": 0.25,
+    "mean_model_calls": 76.0625,
+    "mean_planner_calls": 75.25,
+    "mean_pushes": 0.0,
+    "mean_waits": 75.0
+  },
+  "wrong_color/direct/k1": {
+    "successes": 3,
+    "episodes": 16,
+    "rate": 0.1875,
+    "wilson_95": [
+      0.06591599019788683,
+      0.4300888116754912
+    ],
+    "mean_steps": 47.375,
+    "mean_collisions": 25.0625,
+    "mean_model_calls": 47.375,
+    "mean_planner_calls": 0.0,
+    "mean_pushes": 1.875,
+    "mean_waits": 0.0
+  },
+  "wrong_color/hybrid/k1": {
+    "successes": 0,
+    "episodes": 16,
+    "rate": 0.0,
+    "wilson_95": [
+      0.0,
+      0.1936076829974049
+    ],
+    "mean_steps": 87.6875,
+    "mean_collisions": 0.125,
+    "mean_model_calls": 87.6875,
+    "mean_planner_calls": 87.625,
+    "mean_pushes": 0.0,
+    "mean_waits": 87.5
+  },
+  "blank/direct/k1": {
+    "successes": 0,
+    "episodes": 16,
+    "rate": 0.0,
+    "wilson_95": [
+      0.0,
+      0.1936076829974049
+    ],
+    "mean_steps": 93.8125,
+    "mean_collisions": 90.6875,
+    "mean_model_calls": 93.8125,
+    "mean_planner_calls": 0.0,
+    "mean_pushes": 0.1875,
+    "mean_waits": 0.0
+  },
+  "blank/hybrid/k1": {
+    "successes": 0,
+    "episodes": 16,
+    "rate": 0.0,
+    "wilson_95": [
+      0.0,
+      0.1936076829974049
+    ],
+    "mean_steps": 100.0,
+    "mean_collisions": 0.0,
+    "mean_model_calls": 100.0,
+    "mean_planner_calls": 0.0,
+    "mean_pushes": 0.0,
+    "mean_waits": 100.0
+  },
+  "dark/direct/k1": {
+    "successes": 3,
+    "episodes": 16,
+    "rate": 0.1875,
+    "wilson_95": [
+      0.06591599019788683,
+      0.4300888116754912
+    ],
+    "mean_steps": 71.875,
+    "mean_collisions": 42.375,
+    "mean_model_calls": 71.875,
+    "mean_planner_calls": 0.0,
+    "mean_pushes": 2.0,
+    "mean_waits": 0.0
+  },
+  "dark/hybrid/k1": {
+    "successes": 2,
+    "episodes": 16,
+    "rate": 0.125,
+    "wilson_95": [
+      0.03497748742626902,
+      0.36022827482178466
+    ],
+    "mean_steps": 89.25,
+    "mean_collisions": 83.125,
+    "mean_model_calls": 89.25,
+    "mean_planner_calls": 83.25,
+    "mean_pushes": 2.9375,
+    "mean_waits": 0.0
+  },
+  "noise/direct/k1": {
+    "successes": 4,
+    "episodes": 16,
+    "rate": 0.25,
+    "wilson_95": [
+      0.10182067420167085,
+      0.4949831672970316
+    ],
+    "mean_steps": 60.875,
+    "mean_collisions": 26.4375,
+    "mean_model_calls": 60.875,
+    "mean_planner_calls": 0.0,
+    "mean_pushes": 2.6875,
+    "mean_waits": 0.0
+  },
+  "noise/hybrid/k1": {
+    "successes": 16,
+    "episodes": 16,
+    "rate": 1.0,
+    "wilson_95": [
+      0.8063923170025951,
+      1.0
+    ],
+    "mean_steps": 17.9375,
+    "mean_collisions": 0.0,
+    "mean_model_calls": 17.9375,
+    "mean_planner_calls": 1.0,
+    "mean_pushes": 9.1875,
+    "mean_waits": 0.0
+  },
+  "displacement/direct/k1": {
+    "successes": 4,
+    "episodes": 16,
+    "rate": 0.25,
+    "wilson_95": [
+      0.10182067420167085,
+      0.4949831672970316
+    ],
+    "mean_steps": 48.9375,
+    "mean_collisions": 19.125,
+    "mean_model_calls": 48.9375,
+    "mean_planner_calls": 0.0,
+    "mean_pushes": 2.6875,
+    "mean_waits": 0.0
+  },
+  "displacement/hybrid/k1": {
+    "successes": 16,
+    "episodes": 16,
+    "rate": 1.0,
+    "wilson_95": [
+      0.8063923170025951,
+      1.0
+    ],
+    "mean_steps": 18.8125,
+    "mean_collisions": 0.0,
+    "mean_model_calls": 18.8125,
+    "mean_planner_calls": 2.0,
+    "mean_pushes": 9.1875,
+    "mean_waits": 0.0
+  },
+  "displacement/oracle/k1": {
+    "successes": 16,
+    "episodes": 16,
+    "rate": 1.0,
+    "wilson_95": [
+      0.8063923170025951,
+      1.0
+    ],
+    "mean_steps": 18.8125,
+    "mean_collisions": 0.0,
+    "mean_model_calls": 0.0,
+    "mean_planner_calls": 0.0,
+    "mean_pushes": 9.1875,
+    "mean_waits": 0.0
+  }
+}

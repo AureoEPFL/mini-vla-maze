@@ -1,0 +1,53 @@
+{
+  "small": {
+    "episodes": 656,
+    "matching_fields": [
+      "seed",
+      "kind",
+      "mode",
+      "execute",
+      "condition",
+      "instruction",
+      "success",
+      "outcome",
+      "steps",
+      "pushes",
+      "waits",
+      "collisions",
+      "repeated_states",
+      "model_calls",
+      "planner_calls",
+      "suite"
+    ],
+    "all_equal": true,
+    "csv_sha256": {
+      "results\\maze\\episodes.csv": "83fb587ce8e41c386dad953294a1ec46cfce64ce9735569f63dac3930a1ac26a",
+      "results\\colab\\small\\episodes.csv": "74367e9ec766e24a46853cf68774cc177617e31bf87da36e2a69af45e80f8c83"
+    }
+  },
+  "large": {
+    "episodes": 36,
+    "matching_fields": [
+      "seed",
+      "arena",
+      "size",
+      "mode",
+      "condition",
+      "instruction",
+      "success",
+      "outcome",
+      "steps",
+      "pushes",
+      "waits",
+      "collisions",
+      "model_calls",
+      "searches",
+      "search_states"
+    ],
+    "all_equal": true,
+    "csv_sha256": {
+      "results\\large\\episodes.csv": "711e64eb1b9b814481b591322b46509f13199d59393f770482da58959e2badc5",
+      "results\\colab\\large\\episodes.csv": "24e7c4d352e22b47eb16c6ed92ced35ba8841eaf83ed8e95825e7d1b711dc378"
+    }
+  }
+}

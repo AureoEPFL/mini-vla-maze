@@ -1,0 +1,7 @@
+{
+  "torch": "2.14.1+cpu",
+  "numpy": "2.4.1",
+  "Pillow": "10.1.0",
+  "matplotlib": "3.10.8",
+  "ipython": "8.16.1"
+}

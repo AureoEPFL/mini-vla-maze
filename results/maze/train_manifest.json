@@ -1,0 +1,2453 @@
+{
+  "accepted": [
+    {
+      "seed": 10001,
+      "kind": "open",
+      "length": 12,
+      "text": "push the red disk to the exit"
+    },
+    {
+      "seed": 10002,
+      "kind": "baffles",
+      "length": 21,
+      "text": "push the blue square to the exit"
+    },
+    {
+      "seed": 10008,
+      "kind": "gate",
+      "length": 19,
+      "text": "push the amber square to the exit"
+    },
+    {
+      "seed": 10011,
+      "kind": "sweeper",
+      "length": 10,
+      "text": "push the blue square to the exit"
+    },
+    {
+      "seed": 10012,
+      "kind": "open",
+      "length": 11,
+      "text": "push the amber square to the exit"
+    },
+    {
+      "seed": 10016,
+      "kind": "baffles",
+      "length": 26,
+      "text": "push the red disk to the exit"
+    },
+    {
+      "seed": 10019,
+      "kind": "gate",
+      "length": 13,
+      "text": "push the amber disk to the exit"
+    },
+    {
+      "seed": 10025,
+      "kind": "sweeper",
+      "length": 16,
+      "text": "push the red square to the exit"
+    },
+    {
+      "seed": 10027,
+      "kind": "open",
+      "length": 14,
+      "text": "push the red square to the exit"
+    },
+    {
+      "seed": 10034,
+      "kind": "baffles",
+      "length": 11,
+      "text": "push the red square to the exit"
+    },
+    {
+      "seed": 10035,
+      "kind": "gate",
+      "length": 17,
+      "text": "push the amber disk to the exit"
+    },
+    {
+      "seed": 10036,
+      "kind": "sweeper",
+      "length": 18,
+      "text": "push the amber square to the exit"
+    },
+    {
+      "seed": 10037,
+      "kind": "open",
+      "length": 21,
+      "text": "push the green square to the exit"
+    },
+    {
+      "seed": 10040,
+      "kind": "baffles",
+      "length": 13,
+      "text": "push the amber disk to the exit"
+    },
+    {
+      "seed": 10042,
+      "kind": "gate",
+      "length": 14,
+      "text": "push the green square to the exit"
+    },
+    {
+      "seed": 10044,
+      "kind": "sweeper",
+      "length": 13,
+      "text": "push the amber disk to the exit"
+    },
+    {
+      "seed": 10047,
+      "kind": "open",
+      "length": 12,
+      "text": "push the blue square to the exit"
+    },
+    {
+      "seed": 10050,
+      "kind": "baffles",
+      "length": 18,
+      "text": "push the green square to the exit"
+    },
+    {
+      "seed": 10051,
+      "kind": "gate",
+      "length": 24,
+      "text": "push the red square to the exit"
+    },
+    {
+      "seed": 10055,
+      "kind": "sweeper",
+      "length": 15,
+      "text": "push the blue square to the exit"
+    },
+    {
+      "seed": 10056,
+      "kind": "open",
+      "length": 14,
+      "text": "push the green square to the exit"
+    },
+    {
+      "seed": 10057,
+      "kind": "baffles",
+      "length": 10,
+      "text": "push the red disk to the exit"
+    },
+    {
+      "seed": 10058,
+      "kind": "gate",
+      "length": 12,
+      "text": "push the green square to the exit"
+    },
+    {
+      "seed": 10060,
+      "kind": "sweeper",
+      "length": 21,
+      "text": "push the green square to the exit"
+    },
+    {
+      "seed": 10061,
+      "kind": "open",
+      "length": 14,
+      "text": "push the red square to the exit"
+    },
+    {
+      "seed": 10063,
+      "kind": "baffles",
+      "length": 14,
+      "text": "push the amber square to the exit"
+    },
+    {
+      "seed": 10065,
+      "kind": "gate",
+      "length": 30,
+      "text": "push the amber disk to the exit"
+    },
+    {
+      "seed": 10066,
+      "kind": "sweeper",
+      "length": 23,
+      "text": "push the blue square to the exit"
+    },
+    {
+      "seed": 10069,
+      "kind": "open",
+      "length": 20,
+      "text": "push the blue square to the exit"
+    },
+    {
+      "seed": 10071,
+      "kind": "baffles",
+      "length": 22,
+      "text": "push the amber disk to the exit"
+    },
+    {
+      "seed": 10075,
+      "kind": "gate",
+      "length": 19,
+      "text": "push the red disk to the exit"
+    },
+    {
+      "seed": 10083,
+      "kind": "sweeper",
+      "length": 15,
+      "text": "push the red disk to the exit"
+    },
+    {
+      "seed": 10086,
+      "kind": "open",
+      "length": 14,
+      "text": "push the amber square to the exit"
+    },
+    {
+      "seed": 10088,
+      "kind": "baffles",
+      "length": 14,
+      "text": "push the green disk to the exit"
+    },
+    {
+      "seed": 10090,
+      "kind": "gate",
+      "length": 18,
+      "text": "push the green square to the exit"
+    },
+    {
+      "seed": 10096,
+      "kind": "sweeper",
+      "length": 11,
+      "text": "push the green square to the exit"
+    },
+    {
+      "seed": 10099,
+      "kind": "open",
+      "length": 13,
+      "text": "push the red disk to the exit"
+    },
+    {
+      "seed": 10100,
+      "kind": "baffles",
+      "length": 27,
+      "text": "push the amber square to the exit"
+    },
+    {
+      "seed": 10101,
+      "kind": "gate",
+      "length": 16,
+      "text": "push the blue square to the exit"
+    },
+    {
+      "seed": 10103,
+      "kind": "sweeper",
+      "length": 11,
+      "text": "push the amber disk to the exit"
+    },
+    {
+      "seed": 10105,
+      "kind": "open",
+      "length": 19,
+      "text": "push the red disk to the exit"
+    },
+    {
+      "seed": 10107,
+      "kind": "baffles",
+      "length": 20,
+      "text": "push the amber disk to the exit"
+    },
+    {
+      "seed": 10109,
+      "kind": "gate",
+      "length": 16,
+      "text": "push the red square to the exit"
+    },
+    {
+      "seed": 10111,
+      "kind": "sweeper",
+      "length": 22,
+      "text": "push the red disk to the exit"
+    },
+    {
+      "seed": 10113,
+      "kind": "open",
+      "length": 14,
+      "text": "push the green square to the exit"
+    },
+    {
+      "seed": 10117,
+      "kind": "baffles",
+      "length": 21,
+      "text": "push the amber square to the exit"
+    },
+    {
+      "seed": 10118,
+      "kind": "gate",
+      "length": 23,
+      "text": "push the red square to the exit"
+    },
+    {
+      "seed": 10123,
+      "kind": "sweeper",
+      "length": 11,
+      "text": "push the green square to the exit"
+    },
+    {
+      "seed": 10125,
+      "kind": "open",
+      "length": 19,
+      "text": "push the green disk to the exit"
+    },
+    {
+      "seed": 10126,
+      "kind": "baffles",
+      "length": 18,
+      "text": "push the blue square to the exit"
+    },
+    {
+      "seed": 10129,
+      "kind": "gate",
+      "length": 19,
+      "text": "push the blue square to the exit"
+    },
+    {
+      "seed": 10130,
+      "kind": "sweeper",
+      "length": 18,
+      "text": "push the amber disk to the exit"
+    },
+    {
+      "seed": 10132,
+      "kind": "open",
+      "length": 11,
+      "text": "push the red square to the exit"
+    },
+    {
+      "seed": 10133,
+      "kind": "baffles",
+      "length": 14,
+      "text": "push the red disk to the exit"
+    },
+    {
+      "seed": 10138,
+      "kind": "gate",
+      "length": 22,
+      "text": "push the green square to the exit"
+    },
+    {
+      "seed": 10139,
+      "kind": "sweeper",
+      "length": 19,
+      "text": "push the amber square to the exit"
+    },
+    {
+      "seed": 10141,
+      "kind": "open",
+      "length": 22,
+      "text": "push the amber square to the exit"
+    },
+    {
+      "seed": 10143,
+      "kind": "baffles",
+      "length": 14,
+      "text": "push the amber square to the exit"
+    },
+    {
+      "seed": 10146,
+      "kind": "gate",
+      "length": 27,
+      "text": "push the blue square to the exit"
+    },
+    {
+      "seed": 10149,
+      "kind": "sweeper",
+      "length": 11,
+      "text": "push the green square to the exit"
+    },
+    {
+      "seed": 10151,
+      "kind": "open",
+      "length": 16,
+      "text": "push the green disk to the exit"
+    },
+    {
+      "seed": 10162,
+      "kind": "baffles",
+      "length": 29,
+      "text": "push the red square to the exit"
+    },
+    {
+      "seed": 10165,
+      "kind": "gate",
+      "length": 17,
+      "text": "push the amber disk to the exit"
+    },
+    {
+      "seed": 10167,
+      "kind": "sweeper",
+      "length": 18,
+      "text": "push the blue square to the exit"
+    },
+    {
+      "seed": 10168,
+      "kind": "open",
+      "length": 14,
+      "text": "push the red disk to the exit"
+    },
+    {
+      "seed": 10177,
+      "kind": "baffles",
+      "length": 21,
+      "text": "push the green square to the exit"
+    },
+    {
+      "seed": 10181,
+      "kind": "gate",
+      "length": 20,
+      "text": "push the blue square to the exit"
+    },
+    {
+      "seed": 10183,
+      "kind": "sweeper",
+      "length": 16,
+      "text": "push the amber square to the exit"
+    },
+    {
+      "seed": 10184,
+      "kind": "open",
+      "length": 14,
+      "text": "push the amber square to the exit"
+    },
+    {
+      "seed": 10186,
+      "kind": "baffles",
+      "length": 22,
+      "text": "push the red square to the exit"
+    },
+    {
+      "seed": 10187,
+      "kind": "gate",
+      "length": 22,
+      "text": "push the blue square to the exit"
+    },
+    {
+      "seed": 10188,
+      "kind": "sweeper",
+      "length": 13,
+      "text": "push the red disk to the exit"
+    },
+    {
+      "seed": 10189,
+      "kind": "open",
+      "length": 13,
+      "text": "push the red square to the exit"
+    },
+    {
+      "seed": 10193,
+      "kind": "baffles",
+      "length": 25,
+      "text": "push the green square to the exit"
+    },
+    {
+      "seed": 10194,
+      "kind": "gate",
+      "length": 16,
+      "text": "push the green disk to the exit"
+    },
+    {
+      "seed": 10196,
+      "kind": "sweeper",
+      "length": 13,
+      "text": "push the red disk to the exit"
+    },
+    {
+      "seed": 10197,
+      "kind": "open",
+      "length": 23,
+      "text": "push the amber square to the exit"
+    },
+    {
+      "seed": 10210,
+      "kind": "baffles",
+      "length": 28,
+      "text": "push the blue square to the exit"
+    },
+    {
+      "seed": 10213,
+      "kind": "gate",
+      "length": 20,
+      "text": "push the red disk to the exit"
+    },
+    {
+      "seed": 10214,
+      "kind": "sweeper",
+      "length": 14,
+      "text": "push the red disk to the exit"
+    },
+    {
+      "seed": 10216,
+      "kind": "open",
+      "length": 14,
+      "text": "push the blue square to the exit"
+    },
+    {
+      "seed": 10224,
+      "kind": "baffles",
+      "length": 20,
+      "text": "push the red disk to the exit"
+    },
+    {
+      "seed": 10225,
+      "kind": "gate",
+      "length": 26,
+      "text": "push the amber square to the exit"
+    },
+    {
+      "seed": 10227,
+      "kind": "sweeper",
+      "length": 17,
+      "text": "push the red square to the exit"
+    },
+    {
+      "seed": 10228,
+      "kind": "open",
+      "length": 11,
+      "text": "push the red disk to the exit"
+    },
+    {
+      "seed": 10232,
+      "kind": "baffles",
+      "length": 15,
+      "text": "push the blue square to the exit"
+    },
+    {
+      "seed": 10233,
+      "kind": "gate",
+      "length": 19,
+      "text": "push the amber square to the exit"
+    },
+    {
+      "seed": 10235,
+      "kind": "sweeper",
+      "length": 15,
+      "text": "push the green square to the exit"
+    },
+    {
+      "seed": 10236,
+      "kind": "open",
+      "length": 10,
+      "text": "push the amber square to the exit"
+    },
+    {
+      "seed": 10246,
+      "kind": "baffles",
+      "length": 16,
+      "text": "push the green disk to the exit"
+    },
+    {
+      "seed": 10247,
+      "kind": "gate",
+      "length": 25,
+      "text": "push the green square to the exit"
+    },
+    {
+      "seed": 10248,
+      "kind": "sweeper",
+      "length": 14,
+      "text": "push the green disk to the exit"
+    },
+    {
+      "seed": 10249,
+      "kind": "open",
+      "length": 14,
+      "text": "push the red square to the exit"
+    },
+    {
+      "seed": 10250,
+      "kind": "baffles",
+      "length": 23,
+      "text": "push the red disk to the exit"
+    },
+    {
+      "seed": 10253,
+      "kind": "gate",
+      "length": 19,
+      "text": "push the amber disk to the exit"
+    },
+    {
+      "seed": 10255,
+      "kind": "sweeper",
+      "length": 16,
+      "text": "push the red square to the exit"
+    },
+    {
+      "seed": 10257,
+      "kind": "open",
+      "length": 15,
+      "text": "push the blue square to the exit"
+    },
+    {
+      "seed": 10258,
+      "kind": "baffles",
+      "length": 14,
+      "text": "push the red disk to the exit"
+    },
+    {
+      "seed": 10259,
+      "kind": "gate",
+      "length": 27,
+      "text": "push the amber square to the exit"
+    },
+    {
+      "seed": 10261,
+      "kind": "sweeper",
+      "length": 18,
+      "text": "push the green disk to the exit"
+    },
+    {
+      "seed": 10266,
+      "kind": "open",
+      "length": 21,
+      "text": "push the amber square to the exit"
+    },
+    {
+      "seed": 10269,
+      "kind": "baffles",
+      "length": 16,
+      "text": "push the amber disk to the exit"
+    },
+    {
+      "seed": 10272,
+      "kind": "gate",
+      "length": 17,
+      "text": "push the amber square to the exit"
+    },
+    {
+      "seed": 10275,
+      "kind": "sweeper",
+      "length": 17,
+      "text": "push the amber disk to the exit"
+    },
+    {
+      "seed": 10278,
+      "kind": "open",
+      "length": 11,
+      "text": "push the amber square to the exit"
+    },
+    {
+      "seed": 10279,
+      "kind": "baffles",
+      "length": 20,
+      "text": "push the amber square to the exit"
+    },
+    {
+      "seed": 10282,
+      "kind": "gate",
+      "length": 27,
+      "text": "push the amber disk to the exit"
+    },
+    {
+      "seed": 10283,
+      "kind": "sweeper",
+      "length": 15,
+      "text": "push the green square to the exit"
+    },
+    {
+      "seed": 10284,
+      "kind": "open",
+      "length": 13,
+      "text": "push the red square to the exit"
+    },
+    {
+      "seed": 10287,
+      "kind": "baffles",
+      "length": 13,
+      "text": "push the red disk to the exit"
+    },
+    {
+      "seed": 10288,
+      "kind": "gate",
+      "length": 17,
+      "text": "push the amber square to the exit"
+    },
+    {
+      "seed": 10291,
+      "kind": "sweeper",
+      "length": 20,
+      "text": "push the amber disk to the exit"
+    },
+    {
+      "seed": 10293,
+      "kind": "open",
+      "length": 20,
+      "text": "push the red disk to the exit"
+    },
+    {
+      "seed": 10295,
+      "kind": "baffles",
+      "length": 15,
+      "text": "push the red square to the exit"
+    },
+    {
+      "seed": 10297,
+      "kind": "gate",
+      "length": 22,
+      "text": "push the green square to the exit"
+    },
+    {
+      "seed": 10303,
+      "kind": "sweeper",
+      "length": 11,
+      "text": "push the amber disk to the exit"
+    },
+    {
+      "seed": 10305,
+      "kind": "open",
+      "length": 15,
+      "text": "push the red disk to the exit"
+    },
+    {
+      "seed": 10321,
+      "kind": "baffles",
+      "length": 17,
+      "text": "push the amber square to the exit"
+    },
+    {
+      "seed": 10323,
+      "kind": "gate",
+      "length": 19,
+      "text": "push the green disk to the exit"
+    },
+    {
+      "seed": 10324,
+      "kind": "sweeper",
+      "length": 15,
+      "text": "push the amber square to the exit"
+    },
+    {
+      "seed": 10325,
+      "kind": "open",
+      "length": 13,
+      "text": "push the red disk to the exit"
+    },
+    {
+      "seed": 10326,
+      "kind": "baffles",
+      "length": 13,
+      "text": "push the amber square to the exit"
+    },
+    {
+      "seed": 10329,
+      "kind": "gate",
+      "length": 32,
+      "text": "push the red square to the exit"
+    },
+    {
+      "seed": 10333,
+      "kind": "sweeper",
+      "length": 16,
+      "text": "push the green disk to the exit"
+    },
+    {
+      "seed": 10334,
+      "kind": "open",
+      "length": 25,
+      "text": "push the amber disk to the exit"
+    },
+    {
+      "seed": 10337,
+      "kind": "baffles",
+      "length": 14,
+      "text": "push the red disk to the exit"
+    },
+    {
+      "seed": 10338,
+      "kind": "gate",
+      "length": 14,
+      "text": "push the green disk to the exit"
+    },
+    {
+      "seed": 10340,
+      "kind": "sweeper",
+      "length": 23,
+      "text": "push the amber square to the exit"
+    },
+    {
+      "seed": 10343,
+      "kind": "open",
+      "length": 20,
+      "text": "push the green disk to the exit"
+    },
+    {
+      "seed": 10348,
+      "kind": "baffles",
+      "length": 17,
+      "text": "push the amber square to the exit"
+    },
+    {
+      "seed": 10349,
+      "kind": "gate",
+      "length": 23,
+      "text": "push the amber disk to the exit"
+    },
+    {
+      "seed": 10350,
+      "kind": "sweeper",
+      "length": 16,
+      "text": "push the amber disk to the exit"
+    },
+    {
+      "seed": 10352,
+      "kind": "open",
+      "length": 19,
+      "text": "push the green square to the exit"
+    },
+    {
+      "seed": 10354,
+      "kind": "baffles",
+      "length": 20,
+      "text": "push the amber disk to the exit"
+    },
+    {
+      "seed": 10359,
+      "kind": "gate",
+      "length": 23,
+      "text": "push the green square to the exit"
+    },
+    {
+      "seed": 10368,
+      "kind": "sweeper",
+      "length": 21,
+      "text": "push the green square to the exit"
+    },
+    {
+      "seed": 10369,
+      "kind": "open",
+      "length": 18,
+      "text": "push the red disk to the exit"
+    },
+    {
+      "seed": 10372,
+      "kind": "baffles",
+      "length": 9,
+      "text": "push the red square to the exit"
+    },
+    {
+      "seed": 10374,
+      "kind": "gate",
+      "length": 19,
+      "text": "push the red disk to the exit"
+    },
+    {
+      "seed": 10375,
+      "kind": "sweeper",
+      "length": 16,
+      "text": "push the red disk to the exit"
+    },
+    {
+      "seed": 10376,
+      "kind": "open",
+      "length": 17,
+      "text": "push the blue square to the exit"
+    },
+    {
+      "seed": 10377,
+      "kind": "baffles",
+      "length": 11,
+      "text": "push the red square to the exit"
+    },
+    {
+      "seed": 10379,
+      "kind": "gate",
+      "length": 18,
+      "text": "push the green square to the exit"
+    },
+    {
+      "seed": 10380,
+      "kind": "sweeper",
+      "length": 13,
+      "text": "push the blue square to the exit"
+    },
+    {
+      "seed": 10382,
+      "kind": "open",
+      "length": 16,
+      "text": "push the green square to the exit"
+    },
+    {
+      "seed": 10393,
+      "kind": "baffles",
+      "length": 22,
+      "text": "push the red disk to the exit"
+    },
+    {
+      "seed": 10394,
+      "kind": "gate",
+      "length": 24,
+      "text": "push the green disk to the exit"
+    },
+    {
+      "seed": 10395,
+      "kind": "sweeper",
+      "length": 14,
+      "text": "push the red square to the exit"
+    },
+    {
+      "seed": 10396,
+      "kind": "open",
+      "length": 15,
+      "text": "push the blue square to the exit"
+    },
+    {
+      "seed": 10398,
+      "kind": "baffles",
+      "length": 17,
+      "text": "push the green square to the exit"
+    },
+    {
+      "seed": 10401,
+      "kind": "gate",
+      "length": 22,
+      "text": "push the red disk to the exit"
+    },
+    {
+      "seed": 10402,
+      "kind": "sweeper",
+      "length": 7,
+      "text": "push the red square to the exit"
+    },
+    {
+      "seed": 10403,
+      "kind": "open",
+      "length": 15,
+      "text": "push the amber disk to the exit"
+    },
+    {
+      "seed": 10404,
+      "kind": "baffles",
+      "length": 22,
+      "text": "push the green disk to the exit"
+    },
+    {
+      "seed": 10405,
+      "kind": "gate",
+      "length": 20,
+      "text": "push the amber square to the exit"
+    },
+    {
+      "seed": 10411,
+      "kind": "sweeper",
+      "length": 18,
+      "text": "push the red square to the exit"
+    },
+    {
+      "seed": 10413,
+      "kind": "open",
+      "length": 19,
+      "text": "push the red disk to the exit"
+    },
+    {
+      "seed": 10421,
+      "kind": "baffles",
+      "length": 12,
+      "text": "push the green disk to the exit"
+    },
+    {
+      "seed": 10422,
+      "kind": "gate",
+      "length": 19,
+      "text": "push the amber square to the exit"
+    },
+    {
+      "seed": 10428,
+      "kind": "sweeper",
+      "length": 14,
+      "text": "push the red square to the exit"
+    },
+    {
+      "seed": 10430,
+      "kind": "open",
+      "length": 29,
+      "text": "push the amber disk to the exit"
+    },
+    {
+      "seed": 10431,
+      "kind": "baffles",
+      "length": 12,
+      "text": "push the amber square to the exit"
+    },
+    {
+      "seed": 10434,
+      "kind": "gate",
+      "length": 21,
+      "text": "push the amber disk to the exit"
+    },
+    {
+      "seed": 10435,
+      "kind": "sweeper",
+      "length": 20,
+      "text": "push the green square to the exit"
+    },
+    {
+      "seed": 10437,
+      "kind": "open",
+      "length": 14,
+      "text": "push the red square to the exit"
+    },
+    {
+      "seed": 10445,
+      "kind": "baffles",
+      "length": 30,
+      "text": "push the green disk to the exit"
+    },
+    {
+      "seed": 10447,
+      "kind": "gate",
+      "length": 20,
+      "text": "push the amber disk to the exit"
+    },
+    {
+      "seed": 10448,
+      "kind": "sweeper",
+      "length": 15,
+      "text": "push the amber disk to the exit"
+    },
+    {
+      "seed": 10455,
+      "kind": "open",
+      "length": 9,
+      "text": "push the red disk to the exit"
+    },
+    {
+      "seed": 10458,
+      "kind": "baffles",
+      "length": 24,
+      "text": "push the blue square to the exit"
+    },
+    {
+      "seed": 10460,
+      "kind": "gate",
+      "length": 23,
+      "text": "push the green disk to the exit"
+    },
+    {
+      "seed": 10461,
+      "kind": "sweeper",
+      "length": 13,
+      "text": "push the amber disk to the exit"
+    },
+    {
+      "seed": 10464,
+      "kind": "open",
+      "length": 9,
+      "text": "push the green disk to the exit"
+    },
+    {
+      "seed": 10467,
+      "kind": "baffles",
+      "length": 29,
+      "text": "push the red square to the exit"
+    },
+    {
+      "seed": 10469,
+      "kind": "gate",
+      "length": 20,
+      "text": "push the blue square to the exit"
+    },
+    {
+      "seed": 10472,
+      "kind": "sweeper",
+      "length": 17,
+      "text": "push the green square to the exit"
+    },
+    {
+      "seed": 10481,
+      "kind": "open",
+      "length": 14,
+      "text": "push the green square to the exit"
+    },
+    {
+      "seed": 10486,
+      "kind": "baffles",
+      "length": 14,
+      "text": "push the red disk to the exit"
+    },
+    {
+      "seed": 10488,
+      "kind": "gate",
+      "length": 13,
+      "text": "push the amber square to the exit"
+    },
+    {
+      "seed": 10490,
+      "kind": "sweeper",
+      "length": 12,
+      "text": "push the red square to the exit"
+    },
+    {
+      "seed": 10496,
+      "kind": "open",
+      "length": 12,
+      "text": "push the blue square to the exit"
+    },
+    {
+      "seed": 10502,
+      "kind": "baffles",
+      "length": 6,
+      "text": "push the red square to the exit"
+    },
+    {
+      "seed": 10504,
+      "kind": "gate",
+      "length": 25,
+      "text": "push the amber disk to the exit"
+    },
+    {
+      "seed": 10505,
+      "kind": "sweeper",
+      "length": 12,
+      "text": "push the red square to the exit"
+    },
+    {
+      "seed": 10506,
+      "kind": "open",
+      "length": 6,
+      "text": "push the amber square to the exit"
+    },
+    {
+      "seed": 10512,
+      "kind": "baffles",
+      "length": 15,
+      "text": "push the red square to the exit"
+    },
+    {
+      "seed": 10513,
+      "kind": "gate",
+      "length": 20,
+      "text": "push the green square to the exit"
+    },
+    {
+      "seed": 10514,
+      "kind": "sweeper",
+      "length": 10,
+      "text": "push the red disk to the exit"
+    },
+    {
+      "seed": 10516,
+      "kind": "open",
+      "length": 13,
+      "text": "push the green square to the exit"
+    },
+    {
+      "seed": 10522,
+      "kind": "baffles",
+      "length": 18,
+      "text": "push the amber disk to the exit"
+    },
+    {
+      "seed": 10523,
+      "kind": "gate",
+      "length": 20,
+      "text": "push the green square to the exit"
+    },
+    {
+      "seed": 10524,
+      "kind": "sweeper",
+      "length": 22,
+      "text": "push the red square to the exit"
+    },
+    {
+      "seed": 10525,
+      "kind": "open",
+      "length": 14,
+      "text": "push the blue square to the exit"
+    },
+    {
+      "seed": 10526,
+      "kind": "baffles",
+      "length": 26,
+      "text": "push the amber disk to the exit"
+    },
+    {
+      "seed": 10528,
+      "kind": "gate",
+      "length": 19,
+      "text": "push the red disk to the exit"
+    },
+    {
+      "seed": 10531,
+      "kind": "sweeper",
+      "length": 17,
+      "text": "push the blue square to the exit"
+    },
+    {
+      "seed": 10536,
+      "kind": "open",
+      "length": 12,
+      "text": "push the green square to the exit"
+    },
+    {
+      "seed": 10538,
+      "kind": "baffles",
+      "length": 16,
+      "text": "push the green square to the exit"
+    },
+    {
+      "seed": 10539,
+      "kind": "gate",
+      "length": 23,
+      "text": "push the green square to the exit"
+    },
+    {
+      "seed": 10540,
+      "kind": "sweeper",
+      "length": 22,
+      "text": "push the red square to the exit"
+    },
+    {
+      "seed": 10541,
+      "kind": "open",
+      "length": 12,
+      "text": "push the amber disk to the exit"
+    },
+    {
+      "seed": 10542,
+      "kind": "baffles",
+      "length": 25,
+      "text": "push the red square to the exit"
+    },
+    {
+      "seed": 10543,
+      "kind": "gate",
+      "length": 18,
+      "text": "push the amber disk to the exit"
+    },
+    {
+      "seed": 10549,
+      "kind": "sweeper",
+      "length": 16,
+      "text": "push the green disk to the exit"
+    },
+    {
+      "seed": 10554,
+      "kind": "open",
+      "length": 22,
+      "text": "push the amber square to the exit"
+    },
+    {
+      "seed": 10555,
+      "kind": "baffles",
+      "length": 20,
+      "text": "push the green square to the exit"
+    },
+    {
+      "seed": 10559,
+      "kind": "gate",
+      "length": 21,
+      "text": "push the amber disk to the exit"
+    },
+    {
+      "seed": 10562,
+      "kind": "sweeper",
+      "length": 13,
+      "text": "push the red disk to the exit"
+    },
+    {
+      "seed": 10563,
+      "kind": "open",
+      "length": 15,
+      "text": "push the red square to the exit"
+    },
+    {
+      "seed": 10568,
+      "kind": "baffles",
+      "length": 21,
+      "text": "push the red square to the exit"
+    },
+    {
+      "seed": 10569,
+      "kind": "gate",
+      "length": 12,
+      "text": "push the green square to the exit"
+    },
+    {
+      "seed": 10570,
+      "kind": "sweeper",
+      "length": 20,
+      "text": "push the amber square to the exit"
+    },
+    {
+      "seed": 10571,
+      "kind": "open",
+      "length": 13,
+      "text": "push the red square to the exit"
+    },
+    {
+      "seed": 10572,
+      "kind": "baffles",
+      "length": 17,
+      "text": "push the green disk to the exit"
+    },
+    {
+      "seed": 10575,
+      "kind": "gate",
+      "length": 14,
+      "text": "push the blue square to the exit"
+    },
+    {
+      "seed": 10579,
+      "kind": "sweeper",
+      "length": 18,
+      "text": "push the blue square to the exit"
+    },
+    {
+      "seed": 10581,
+      "kind": "open",
+      "length": 25,
+      "text": "push the amber square to the exit"
+    },
+    {
+      "seed": 10584,
+      "kind": "baffles",
+      "length": 14,
+      "text": "push the green square to the exit"
+    },
+    {
+      "seed": 10586,
+      "kind": "gate",
+      "length": 16,
+      "text": "push the red disk to the exit"
+    },
+    {
+      "seed": 10587,
+      "kind": "sweeper",
+      "length": 14,
+      "text": "push the amber disk to the exit"
+    },
+    {
+      "seed": 10591,
+      "kind": "open",
+      "length": 19,
+      "text": "push the amber disk to the exit"
+    },
+    {
+      "seed": 10598,
+      "kind": "baffles",
+      "length": 12,
+      "text": "push the green disk to the exit"
+    },
+    {
+      "seed": 10599,
+      "kind": "gate",
+      "length": 18,
+      "text": "push the red disk to the exit"
+    },
+    {
+      "seed": 10600,
+      "kind": "sweeper",
+      "length": 21,
+      "text": "push the red square to the exit"
+    },
+    {
+      "seed": 10601,
+      "kind": "open",
+      "length": 17,
+      "text": "push the green square to the exit"
+    },
+    {
+      "seed": 10602,
+      "kind": "baffles",
+      "length": 16,
+      "text": "push the green disk to the exit"
+    },
+    {
+      "seed": 10603,
+      "kind": "gate",
+      "length": 22,
+      "text": "push the green disk to the exit"
+    },
+    {
+      "seed": 10604,
+      "kind": "sweeper",
+      "length": 15,
+      "text": "push the red square to the exit"
+    },
+    {
+      "seed": 10606,
+      "kind": "open",
+      "length": 19,
+      "text": "push the blue square to the exit"
+    },
+    {
+      "seed": 10607,
+      "kind": "baffles",
+      "length": 16,
+      "text": "push the green square to the exit"
+    },
+    {
+      "seed": 10611,
+      "kind": "gate",
+      "length": 18,
+      "text": "push the amber disk to the exit"
+    },
+    {
+      "seed": 10612,
+      "kind": "sweeper",
+      "length": 19,
+      "text": "push the green disk to the exit"
+    },
+    {
+      "seed": 10614,
+      "kind": "open",
+      "length": 16,
+      "text": "push the green disk to the exit"
+    },
+    {
+      "seed": 10620,
+      "kind": "baffles",
+      "length": 27,
+      "text": "push the red disk to the exit"
+    },
+    {
+      "seed": 10624,
+      "kind": "gate",
+      "length": 17,
+      "text": "push the green disk to the exit"
+    },
+    {
+      "seed": 10628,
+      "kind": "sweeper",
+      "length": 13,
+      "text": "push the green square to the exit"
+    },
+    {
+      "seed": 10629,
+      "kind": "open",
+      "length": 11,
+      "text": "push the amber disk to the exit"
+    },
+    {
+      "seed": 10632,
+      "kind": "baffles",
+      "length": 10,
+      "text": "push the amber square to the exit"
+    },
+    {
+      "seed": 10637,
+      "kind": "gate",
+      "length": 18,
+      "text": "push the amber square to the exit"
+    },
+    {
+      "seed": 10639,
+      "kind": "sweeper",
+      "length": 14,
+      "text": "push the green disk to the exit"
+    },
+    {
+      "seed": 10640,
+      "kind": "open",
+      "length": 15,
+      "text": "push the amber square to the exit"
+    },
+    {
+      "seed": 10641,
+      "kind": "baffles",
+      "length": 20,
+      "text": "push the red disk to the exit"
+    },
+    {
+      "seed": 10645,
+      "kind": "gate",
+      "length": 19,
+      "text": "push the green square to the exit"
+    },
+    {
+      "seed": 10647,
+      "kind": "sweeper",
+      "length": 18,
+      "text": "push the amber disk to the exit"
+    },
+    {
+      "seed": 10648,
+      "kind": "open",
+      "length": 11,
+      "text": "push the amber disk to the exit"
+    },
+    {
+      "seed": 10649,
+      "kind": "baffles",
+      "length": 19,
+      "text": "push the blue square to the exit"
+    },
+    {
+      "seed": 10650,
+      "kind": "gate",
+      "length": 17,
+      "text": "push the green disk to the exit"
+    },
+    {
+      "seed": 10651,
+      "kind": "sweeper",
+      "length": 22,
+      "text": "push the green square to the exit"
+    },
+    {
+      "seed": 10653,
+      "kind": "open",
+      "length": 10,
+      "text": "push the amber disk to the exit"
+    },
+    {
+      "seed": 10658,
+      "kind": "baffles",
+      "length": 10,
+      "text": "push the amber square to the exit"
+    },
+    {
+      "seed": 10659,
+      "kind": "gate",
+      "length": 18,
+      "text": "push the blue square to the exit"
+    },
+    {
+      "seed": 10660,
+      "kind": "sweeper",
+      "length": 15,
+      "text": "push the red disk to the exit"
+    },
+    {
+      "seed": 10662,
+      "kind": "open",
+      "length": 21,
+      "text": "push the blue square to the exit"
+    },
+    {
+      "seed": 10665,
+      "kind": "baffles",
+      "length": 6,
+      "text": "push the green square to the exit"
+    },
+    {
+      "seed": 10666,
+      "kind": "gate",
+      "length": 12,
+      "text": "push the amber square to the exit"
+    },
+    {
+      "seed": 10669,
+      "kind": "sweeper",
+      "length": 14,
+      "text": "push the red square to the exit"
+    },
+    {
+      "seed": 10671,
+      "kind": "open",
+      "length": 18,
+      "text": "push the blue square to the exit"
+    },
+    {
+      "seed": 10673,
+      "kind": "baffles",
+      "length": 10,
+      "text": "push the red square to the exit"
+    },
+    {
+      "seed": 10677,
+      "kind": "gate",
+      "length": 15,
+      "text": "push the green disk to the exit"
+    },
+    {
+      "seed": 10678,
+      "kind": "sweeper",
+      "length": 13,
+      "text": "push the red disk to the exit"
+    },
+    {
+      "seed": 10680,
+      "kind": "open",
+      "length": 19,
+      "text": "push the red square to the exit"
+    },
+    {
+      "seed": 10681,
+      "kind": "baffles",
+      "length": 14,
+      "text": "push the red square to the exit"
+    },
+    {
+      "seed": 10682,
+      "kind": "gate",
+      "length": 23,
+      "text": "push the green square to the exit"
+    },
+    {
+      "seed": 10683,
+      "kind": "sweeper",
+      "length": 12,
+      "text": "push the green square to the exit"
+    },
+    {
+      "seed": 10684,
+      "kind": "open",
+      "length": 11,
+      "text": "push the amber disk to the exit"
+    },
+    {
+      "seed": 10686,
+      "kind": "baffles",
+      "length": 24,
+      "text": "push the red square to the exit"
+    },
+    {
+      "seed": 10688,
+      "kind": "gate",
+      "length": 19,
+      "text": "push the green square to the exit"
+    },
+    {
+      "seed": 10690,
+      "kind": "sweeper",
+      "length": 6,
+      "text": "push the red square to the exit"
+    },
+    {
+      "seed": 10691,
+      "kind": "open",
+      "length": 20,
+      "text": "push the blue square to the exit"
+    },
+    {
+      "seed": 10695,
+      "kind": "baffles",
+      "length": 17,
+      "text": "push the amber square to the exit"
+    },
+    {
+      "seed": 10697,
+      "kind": "gate",
+      "length": 17,
+      "text": "push the red square to the exit"
+    },
+    {
+      "seed": 10698,
+      "kind": "sweeper",
+      "length": 16,
+      "text": "push the blue square to the exit"
+    },
+    {
+      "seed": 10699,
+      "kind": "open",
+      "length": 14,
+      "text": "push the blue square to the exit"
+    },
+    {
+      "seed": 10703,
+      "kind": "baffles",
+      "length": 13,
+      "text": "push the red square to the exit"
+    },
+    {
+      "seed": 10710,
+      "kind": "gate",
+      "length": 20,
+      "text": "push the red square to the exit"
+    },
+    {
+      "seed": 10712,
+      "kind": "sweeper",
+      "length": 17,
+      "text": "push the blue square to the exit"
+    },
+    {
+      "seed": 10713,
+      "kind": "open",
+      "length": 14,
+      "text": "push the red square to the exit"
+    },
+    {
+      "seed": 10725,
+      "kind": "baffles",
+      "length": 17,
+      "text": "push the amber square to the exit"
+    },
+    {
+      "seed": 10726,
+      "kind": "gate",
+      "length": 18,
+      "text": "push the green square to the exit"
+    },
+    {
+      "seed": 10727,
+      "kind": "sweeper",
+      "length": 8,
+      "text": "push the amber square to the exit"
+    },
+    {
+      "seed": 10729,
+      "kind": "open",
+      "length": 12,
+      "text": "push the red disk to the exit"
+    },
+    {
+      "seed": 10735,
+      "kind": "baffles",
+      "length": 26,
+      "text": "push the green square to the exit"
+    },
+    {
+      "seed": 10736,
+      "kind": "gate",
+      "length": 24,
+      "text": "push the blue square to the exit"
+    },
+    {
+      "seed": 10741,
+      "kind": "sweeper",
+      "length": 18,
+      "text": "push the green square to the exit"
+    },
+    {
+      "seed": 10746,
+      "kind": "open",
+      "length": 13,
+      "text": "push the blue square to the exit"
+    },
+    {
+      "seed": 10753,
+      "kind": "baffles",
+      "length": 19,
+      "text": "push the amber square to the exit"
+    },
+    {
+      "seed": 10754,
+      "kind": "gate",
+      "length": 19,
+      "text": "push the blue square to the exit"
+    },
+    {
+      "seed": 10756,
+      "kind": "sweeper",
+      "length": 17,
+      "text": "push the green disk to the exit"
+    },
+    {
+      "seed": 10758,
+      "kind": "open",
+      "length": 10,
+      "text": "push the amber square to the exit"
+    },
+    {
+      "seed": 10761,
+      "kind": "baffles",
+      "length": 13,
+      "text": "push the green disk to the exit"
+    },
+    {
+      "seed": 10763,
+      "kind": "gate",
+      "length": 17,
+      "text": "push the green disk to the exit"
+    },
+    {
+      "seed": 10765,
+      "kind": "sweeper",
+      "length": 15,
+      "text": "push the blue square to the exit"
+    },
+    {
+      "seed": 10780,
+      "kind": "open",
+      "length": 18,
+      "text": "push the red disk to the exit"
+    },
+    {
+      "seed": 10781,
+      "kind": "baffles",
+      "length": 10,
+      "text": "push the red disk to the exit"
+    },
+    {
+      "seed": 10786,
+      "kind": "gate",
+      "length": 17,
+      "text": "push the blue square to the exit"
+    },
+    {
+      "seed": 10791,
+      "kind": "sweeper",
+      "length": 21,
+      "text": "push the green disk to the exit"
+    },
+    {
+      "seed": 10794,
+      "kind": "open",
+      "length": 18,
+      "text": "push the green square to the exit"
+    },
+    {
+      "seed": 10796,
+      "kind": "baffles",
+      "length": 11,
+      "text": "push the amber disk to the exit"
+    },
+    {
+      "seed": 10797,
+      "kind": "gate",
+      "length": 23,
+      "text": "push the amber square to the exit"
+    },
+    {
+      "seed": 10798,
+      "kind": "sweeper",
+      "length": 15,
+      "text": "push the amber disk to the exit"
+    },
+    {
+      "seed": 10799,
+      "kind": "open",
+      "length": 19,
+      "text": "push the amber square to the exit"
+    },
+    {
+      "seed": 10805,
+      "kind": "baffles",
+      "length": 21,
+      "text": "push the amber square to the exit"
+    },
+    {
+      "seed": 10806,
+      "kind": "gate",
+      "length": 18,
+      "text": "push the green disk to the exit"
+    },
+    {
+      "seed": 10807,
+      "kind": "sweeper",
+      "length": 18,
+      "text": "push the red disk to the exit"
+    },
+    {
+      "seed": 10808,
+      "kind": "open",
+      "length": 19,
+      "text": "push the amber square to the exit"
+    },
+    {
+      "seed": 10811,
+      "kind": "baffles",
+      "length": 18,
+      "text": "push the green square to the exit"
+    },
+    {
+      "seed": 10812,
+      "kind": "gate",
+      "length": 17,
+      "text": "push the amber square to the exit"
+    },
+    {
+      "seed": 10813,
+      "kind": "sweeper",
+      "length": 12,
+      "text": "push the red square to the exit"
+    },
+    {
+      "seed": 10817,
+      "kind": "open",
+      "length": 15,
+      "text": "push the red disk to the exit"
+    },
+    {
+      "seed": 10819,
+      "kind": "baffles",
+      "length": 19,
+      "text": "push the green disk to the exit"
+    },
+    {
+      "seed": 10821,
+      "kind": "gate",
+      "length": 27,
+      "text": "push the green square to the exit"
+    },
+    {
+      "seed": 10823,
+      "kind": "sweeper",
+      "length": 16,
+      "text": "push the red disk to the exit"
+    },
+    {
+      "seed": 10825,
+      "kind": "open",
+      "length": 10,
+      "text": "push the amber square to the exit"
+    },
+    {
+      "seed": 10833,
+      "kind": "baffles",
+      "length": 17,
+      "text": "push the blue square to the exit"
+    },
+    {
+      "seed": 10834,
+      "kind": "gate",
+      "length": 21,
+      "text": "push the amber disk to the exit"
+    },
+    {
+      "seed": 10835,
+      "kind": "sweeper",
+      "length": 16,
+      "text": "push the red disk to the exit"
+    },
+    {
+      "seed": 10836,
+      "kind": "open",
+      "length": 7,
+      "text": "push the green disk to the exit"
+    },
+    {
+      "seed": 10837,
+      "kind": "baffles",
+      "length": 11,
+      "text": "push the amber square to the exit"
+    },
+    {
+      "seed": 10841,
+      "kind": "gate",
+      "length": 16,
+      "text": "push the amber square to the exit"
+    },
+    {
+      "seed": 10844,
+      "kind": "sweeper",
+      "length": 19,
+      "text": "push the red square to the exit"
+    }
+  ],
+  "rejected_seeds": [
+    10000,
+    10003,
+    10004,
+    10005,
+    10006,
+    10007,
+    10009,
+    10010,
+    10013,
+    10014,
+    10015,
+    10017,
+    10018,
+    10020,
+    10021,
+    10022,
+    10023,
+    10024,
+    10026,
+    10028,
+    10029,
+    10030,
+    10031,
+    10032,
+    10033,
+    10038,
+    10039,
+    10041,
+    10043,
+    10045,
+    10046,
+    10048,
+    10049,
+    10052,
+    10053,
+    10054,
+    10059,
+    10062,
+    10064,
+    10067,
+    10068,
+    10070,
+    10072,
+    10073,
+    10074,
+    10076,
+    10077,
+    10078,
+    10079,
+    10080,
+    10081,
+    10082,
+    10084,
+    10085,
+    10087,
+    10089,
+    10091,
+    10092,
+    10093,
+    10094,
+    10095,
+    10097,
+    10098,
+    10102,
+    10104,
+    10106,
+    10108,
+    10110,
+    10112,
+    10114,
+    10115,
+    10116,
+    10119,
+    10120,
+    10121,
+    10122,
+    10124,
+    10127,
+    10128,
+    10131,
+    10134,
+    10135,
+    10136,
+    10137,
+    10140,
+    10142,
+    10144,
+    10145,
+    10147,
+    10148,
+    10150,
+    10152,
+    10153,
+    10154,
+    10155,
+    10156,
+    10157,
+    10158,
+    10159,
+    10160,
+    10161,
+    10163,
+    10164,
+    10166,
+    10169,
+    10170,
+    10171,
+    10172,
+    10173,
+    10174,
+    10175,
+    10176,
+    10178,
+    10179,
+    10180,
+    10182,
+    10185,
+    10190,
+    10191,
+    10192,
+    10195,
+    10198,
+    10199,
+    10200,
+    10201,
+    10202,
+    10203,
+    10204,
+    10205,
+    10206,
+    10207,
+    10208,
+    10209,
+    10211,
+    10212,
+    10215,
+    10217,
+    10218,
+    10219,
+    10220,
+    10221,
+    10222,
+    10223,
+    10226,
+    10229,
+    10230,
+    10231,
+    10234,
+    10237,
+    10238,
+    10239,
+    10240,
+    10241,
+    10242,
+    10243,
+    10244,
+    10245,
+    10251,
+    10252,
+    10254,
+    10256,
+    10260,
+    10262,
+    10263,
+    10264,
+    10265,
+    10267,
+    10268,
+    10270,
+    10271,
+    10273,
+    10274,
+    10276,
+    10277,
+    10280,
+    10281,
+    10285,
+    10286,
+    10289,
+    10290,
+    10292,
+    10294,
+    10296,
+    10298,
+    10299,
+    10300,
+    10301,
+    10302,
+    10304,
+    10306,
+    10307,
+    10308,
+    10309,
+    10310,
+    10311,
+    10312,
+    10313,
+    10314,
+    10315,
+    10316,
+    10317,
+    10318,
+    10319,
+    10320,
+    10322,
+    10327,
+    10328,
+    10330,
+    10331,
+    10332,
+    10335,
+    10336,
+    10339,
+    10341,
+    10342,
+    10344,
+    10345,
+    10346,
+    10347,
+    10351,
+    10353,
+    10355,
+    10356,
+    10357,
+    10358,
+    10360,
+    10361,
+    10362,
+    10363,
+    10364,
+    10365,
+    10366,
+    10367,
+    10370,
+    10371,
+    10373,
+    10378,
+    10381,
+    10383,
+    10384,
+    10385,
+    10386,
+    10387,
+    10388,
+    10389,
+    10390,
+    10391,
+    10392,
+    10397,
+    10399,
+    10400,
+    10406,
+    10407,
+    10408,
+    10409,
+    10410,
+    10412,
+    10414,
+    10415,
+    10416,
+    10417,
+    10418,
+    10419,
+    10420,
+    10423,
+    10424,
+    10425,
+    10426,
+    10427,
+    10429,
+    10432,
+    10433,
+    10436,
+    10438,
+    10439,
+    10440,
+    10441,
+    10442,
+    10443,
+    10444,
+    10446,
+    10449,
+    10450,
+    10451,
+    10452,
+    10453,
+    10454,
+    10456,
+    10457,
+    10459,
+    10462,
+    10463,
+    10465,
+    10466,
+    10468,
+    10470,
+    10471,
+    10473,
+    10474,
+    10475,
+    10476,
+    10477,
+    10478,
+    10479,
+    10480,
+    10482,
+    10483,
+    10484,
+    10485,
+    10487,
+    10489,
+    10491,
+    10492,
+    10493,
+    10494,
+    10495,
+    10497,
+    10498,
+    10499,
+    10500,
+    10501,
+    10503,
+    10507,
+    10508,
+    10509,
+    10510,
+    10511,
+    10515,
+    10517,
+    10518,
+    10519,
+    10520,
+    10521,
+    10527,
+    10529,
+    10530,
+    10532,
+    10533,
+    10534,
+    10535,
+    10537,
+    10544,
+    10545,
+    10546,
+    10547,
+    10548,
+    10550,
+    10551,
+    10552,
+    10553,
+    10556,
+    10557,
+    10558,
+    10560,
+    10561,
+    10564,
+    10565,
+    10566,
+    10567,
+    10573,
+    10574,
+    10576,
+    10577,
+    10578,
+    10580,
+    10582,
+    10583,
+    10585,
+    10588,
+    10589,
+    10590,
+    10592,
+    10593,
+    10594,
+    10595,
+    10596,
+    10597,
+    10605,
+    10608,
+    10609,
+    10610,
+    10613,
+    10615,
+    10616,
+    10617,
+    10618,
+    10619,
+    10621,
+    10622,
+    10623,
+    10625,
+    10626,
+    10627,
+    10630,
+    10631,
+    10633,
+    10634,
+    10635,
+    10636,
+    10638,
+    10642,
+    10643,
+    10644,
+    10646,
+    10652,
+    10654,
+    10655,
+    10656,
+    10657,
+    10661,
+    10663,
+    10664,
+    10667,
+    10668,
+    10670,
+    10672,
+    10674,
+    10675,
+    10676,
+    10679,
+    10685,
+    10687,
+    10689,
+    10692,
+    10693,
+    10694,
+    10696,
+    10700,
+    10701,
+    10702,
+    10704,
+    10705,
+    10706,
+    10707,
+    10708,
+    10709,
+    10711,
+    10714,
+    10715,
+    10716,
+    10717,
+    10718,
+    10719,
+    10720,
+    10721,
+    10722,
+    10723,
+    10724,
+    10728,
+    10730,
+    10731,
+    10732,
+    10733,
+    10734,
+    10737,
+    10738,
+    10739,
+    10740,
+    10742,
+    10743,
+    10744,
+    10745,
+    10747,
+    10748,
+    10749,
+    10750,
+    10751,
+    10752,
+    10755,
+    10757,
+    10759,
+    10760,
+    10762,
+    10764,
+    10766,
+    10767,
+    10768,
+    10769,
+    10770,
+    10771,
+    10772,
+    10773,
+    10774,
+    10775,
+    10776,
+    10777,
+    10778,
+    10779,
+    10782,
+    10783,
+    10784,
+    10785,
+    10787,
+    10788,
+    10789,
+    10790,
+    10792,
+    10793,
+    10795,
+    10800,
+    10801,
+    10802,
+    10803,
+    10804,
+    10809,
+    10810,
+    10814,
+    10815,
+    10816,
+    10818,
+    10820,
+    10822,
+    10824,
+    10826,
+    10827,
+    10828,
+    10829,
+    10830,
+    10831,
+    10832,
+    10838,
+    10839,
+    10840,
+    10842,
+    10843
+  ],
+  "start_seed": 10000,
+  "next_seed": 10845
+}
