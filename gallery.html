@@ -1,3 +1,81 @@
-<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Mini-VLA Maze · experiments</title>
-<style>*{box-sizing:border-box}body{margin:0;background:#0d1421;color:#eef3fa;font:16px system-ui,sans-serif}main{max-width:1300px;margin:auto;padding:32px}header{border-bottom:1px solid #304056;padding-bottom:24px}h1{font-size:38px;letter-spacing:-1px;margin:8px 0}p{color:#aebdd2;line-height:1.6}.eyebrow{color:#68dfc3;font-size:12px;letter-spacing:2px}.layout{display:grid;grid-template-columns:240px 1fr;gap:24px;margin-top:28px}button{display:block;text-align:left;width:100%;padding:14px;margin:0 0 8px;background:#172334;border:1px solid #304056;color:#eef3fa;border-radius:8px;cursor:pointer}button.selected{border-color:#68dfc3;background:#1d3a3c}button small{display:block;color:#9cacc2;margin-top:5px}.stage img{width:100%;border-radius:12px}.note{font-size:13px}a{color:#68dfc3}.stats{display:flex;gap:20px;flex-wrap:wrap;margin:12px 0}.stat{background:#172334;padding:12px 22px;border-radius:8px}.stat strong{font-size:25px;display:block}.stat span{font-size:12px;color:#aebdd2}@media(max-width:800px){.layout{grid-template-columns:1fr}nav{display:flex;overflow:auto;gap:8px}button{min-width:160px}main{padding:16px}}</style>
-<main><header><div class="eyebrow">VISION · LANGUAGE · ACTION</div><h1>Mini-VLA Maze</h1><p>A small learned policy, an explicit planner, and a set of increasingly demanding pushing tasks.</p></header><div class="layout"><nav id="cases"></nav><section class="stage"><img id="film" alt="Recorded experiment"><div class="stats" id="stats"></div><p id="caption"></p><p class="note">These are recorded executions. The styled view is for display; the neural model receives the raw RGB image shown in the animation. Large arenas use learned perception + A*. No neural action-head result is claimed on 25×25 maps.</p><p><a href="README.md">README</a> · <a href="RESULTS.md">Measured results</a> · <a href="media/benchmark_illustrated.png">Illustrated benchmark</a> · <a href="docs/METHODS.md">Methods</a></p></section></div></main><script>const cases=[{"file": "viewer_baffles_direct_success.gif", "seed": 210009, "kind": "baffles", "mode": "direct", "execute": 1, "condition": "clean", "instruction": "push the green disk to the exit", "success": true, "outcome": "success", "steps": 18, "pushes": 12, "waits": 0, "collisions": 0, "repeated_states": 0, "model_calls": 18, "planner_calls": 0, "seconds": 0.17838059994392097}, {"file": "viewer_gate_hybrid_success.gif", "seed": 220001, "kind": "gate", "mode": "hybrid", "execute": 1, "condition": "clean", "instruction": "push the green square to the exit", "success": true, "outcome": "success", "steps": 22, "pushes": 8, "waits": 1, "collisions": 0, "repeated_states": 0, "model_calls": 22, "planner_calls": 1, "seconds": 0.07176690001506358}, {"file": "viewer_rotor_hybrid_success.gif", "seed": 240001, "kind": "rotor", "mode": "hybrid", "execute": 1, "condition": "clean", "instruction": "push the amber disk to the exit", "success": true, "outcome": "success", "steps": 13, "pushes": 8, "waits": 0, "collisions": 0, "repeated_states": 0, "model_calls": 13, "planner_calls": 1, "seconds": 0.04118180007208139}, {"file": "viewer_tower_hybrid_success.gif", "seed": 250003, "kind": "tower", "mode": "hybrid", "execute": 1, "condition": "clean", "instruction": "push the red disk to the exit", "success": true, "outcome": "success", "steps": 26, "pushes": 10, "waits": 0, "collisions": 0, "repeated_states": 0, "model_calls": 26, "planner_calls": 1, "seconds": 0.06705919990781695}, {"file": "viewer_baffles_direct_timeout.gif", "seed": 210016, "kind": "baffles", "mode": "direct", "execute": 1, "condition": "clean", "instruction": "push the amber disk to the exit", "success": false, "outcome": "timeout", "steps": 100, "pushes": 3, "waits": 0, "collisions": 96, "repeated_states": 95, "model_calls": 100, "planner_calls": 0, "seconds": 0.20406929997261614}, {"file": "viewer_switchback.gif", "seed": 800000, "arena": "switchback", "size": 25, "mode": "hybrid", "condition": "clean", "instruction": "push the blue disk to the exit", "success": true, "outcome": "success", "steps": 110, "pushes": 82, "waits": 0, "collisions": 0, "model_calls": 110, "searches": 1, "search_states": 12966, "planning_seconds": 0.24176969996187836, "seconds": 0.589566900045611}, {"file": "viewer_catacombs.gif", "seed": 810001, "arena": "catacombs", "size": 25, "mode": "hybrid", "condition": "clean", "instruction": "push the red disk to the exit", "success": true, "outcome": "success", "steps": 70, "pushes": 60, "waits": 0, "collisions": 0, "model_calls": 70, "searches": 1, "search_states": 4035, "planning_seconds": 0.1391156999161467, "seconds": 0.451903700013645}, {"file": "viewer_airlocks.gif", "seed": 820000, "arena": "airlocks", "size": 25, "mode": "hybrid", "condition": "clean", "instruction": "push the red disk to the exit", "success": true, "outcome": "success", "steps": 76, "pushes": 59, "waits": 2, "collisions": 0, "model_calls": 76, "searches": 1, "search_states": 39200, "planning_seconds": 0.8639700999483466, "seconds": 1.1363513000542298}];const names={"open": "Open floor", "baffles": "Offset walls", "gate": "Timed door", "sweeper": "Moving barrier", "rotor": "Alternating turnstile", "tower": "Tower", "switchback": "Switchback", "catacombs": "Catacombs", "airlocks": "Three airlocks"};function select(i){const r=cases[i],kind=r.arena||r.kind;document.getElementById('film').src='media/'+r.file;document.getElementById('stats').innerHTML=[['steps',r.steps],['pushes',r.pushes],['waits',r.waits],['seed',r.seed]].map(([k,v])=>'<div class="stat"><strong>'+v+'</strong><span>'+k+'</span></div>').join('');document.getElementById('caption').textContent=r.instruction+' — '+r.outcome.replaceAll('_',' ')+'. '+(r.mode==='hybrid'?'Learned visual representation; programmed A* route.':'Actions predicted by the neural network.');document.querySelectorAll('button').forEach((b,j)=>b.classList.toggle('selected',j===i))}cases.forEach((r,i)=>{const b=document.createElement('button');b.innerHTML=names[r.arena||r.kind]+'<small>'+r.mode+' · '+r.outcome.replaceAll('_',' ')+'</small>';b.onclick=()=>select(i);document.getElementById('cases').appendChild(b)});select(cases.findIndex(r=>r.arena==='catacombs'));</script></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mini-VLA Maze · recorded runs</title>
+  <style>
+    * { box-sizing: border-box }
+    body { margin: 0; background: #0d1421; color: #eef3fa; font: 16px system-ui, sans-serif }
+    main { max-width: 1280px; margin: auto; padding: 32px }
+    header { border-bottom: 1px solid #304056; padding-bottom: 20px }
+    h1 { margin: 6px 0; font-size: 36px; letter-spacing: -1px }
+    h2 { margin-top: 0 }
+    p { color: #afbdd0; line-height: 1.6 }
+    .eyebrow { color: #68dfc3; font-size: 12px; letter-spacing: 2px }
+    .layout { display: grid; grid-template-columns: 245px minmax(0, 1fr); gap: 24px; margin-top: 24px }
+    nav button { display: block; width: 100%; margin: 0 0 8px; padding: 12px; text-align: left; color: #eef3fa; background: #172334; border: 1px solid #304056; border-radius: 8px; cursor: pointer }
+    nav button.selected { background: #1d3a3c; border-color: #68dfc3 }
+    nav small { display: block; margin-top: 4px; color: #9cacc2 }
+    .stage { min-width: 0 }
+    .stage img { display: block; width: 100%; border-radius: 12px; background: #111b29 }
+    .stats { display: flex; gap: 10px; flex-wrap: wrap; margin: 12px 0 }
+    .stat { min-width: 92px; padding: 10px 14px; background: #172334; border-radius: 8px }
+    .stat strong { display: block; font-size: 23px }
+    .stat span, .note { color: #aebdd2; font-size: 12px }
+    a { color: #68dfc3 }
+    @media (max-width: 760px) { main { padding: 16px } .layout { grid-template-columns: 1fr } nav { display: flex; gap: 8px; overflow-x: auto } nav button { min-width: 190px } h1 { font-size: 30px } }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div class="eyebrow">VISION · LANGUAGE · ACTION</div>
+      <h1>Mini-VLA Maze</h1>
+      <p>A progressive tour: direct action prediction, its failure cases, learned perception with A*, then larger timed mazes. Select a run to inspect the recorded input and outcome.</p>
+    </header>
+    <div class="layout">
+      <nav id="cases" aria-label="Recorded experiments"></nav>
+      <section class="stage" aria-live="polite">
+        <h2 id="title"></h2>
+        <img id="film" alt="Recorded experiment">
+        <div class="stats" id="stats"></div>
+        <p id="caption"></p>
+        <p class="note">The raw RGB frame shown in the animation is the model input. Hybrid runs use learned perception plus programmed A* search; the displayed route is not produced by the neural action head. Large arenas do not evaluate that fixed-size action head.</p>
+        <p><a href="README.md">Project overview</a> · <a href="RESULTS.md">Measured results</a> · <a href="GALLERY.md">All GIFs</a> · <a href="docs/METHODS.md">Methods</a></p>
+      </section>
+    </div>
+  </main>
+  <script>
+    const runs = [
+      { title: "1 · Direct policy — baffles", file: "viewer_baffles_direct_success.gif", scene: "Offset walls", mode: "direct", outcome: "success", instruction: "Push the green disk to the exit", seed: 210009, steps: 18, pushes: 12, waits: 0 },
+      { title: "2 · Direct policy — failure", file: "viewer_baffles_direct_timeout.gif", scene: "Offset walls", mode: "direct", outcome: "timeout", instruction: "Push the amber disk to the exit", seed: 210016, steps: 100, pushes: 3, waits: 0 },
+      { title: "3 · Learned map + A* — timed gate", file: "viewer_gate_hybrid_success.gif", scene: "Timed door", mode: "hybrid", outcome: "success", instruction: "Push the green square to the exit", seed: 220001, steps: 22, pushes: 8, waits: 1 },
+      { title: "4 · Learned map + A* — rotor", file: "viewer_rotor_hybrid_success.gif", scene: "Alternating rotor", mode: "hybrid", outcome: "success", instruction: "Push the amber disk to the exit", seed: 240001, steps: 13, pushes: 8, waits: 0 },
+      { title: "5 · Learned map + A* — held-out tower", file: "viewer_tower_hybrid_success.gif", scene: "Tower layout", mode: "hybrid", outcome: "success", instruction: "Push the red disk to the exit", seed: 250003, steps: 26, pushes: 10, waits: 0 },
+      { title: "6 · 25×25 — switchback", file: "viewer_switchback.gif", scene: "Switchback", mode: "hybrid", outcome: "success", instruction: "Push the blue disk to the exit", seed: 800000, steps: 110, pushes: 82, waits: 0 },
+      { title: "7 · 25×25 — catacombs", file: "viewer_catacombs.gif", scene: "Nine connected rooms", mode: "hybrid", outcome: "success", instruction: "Push the red disk to the exit", seed: 810001, steps: 70, pushes: 60, waits: 0 },
+      { title: "8 · Final run — three airlocks", file: "viewer_airlocks.gif", scene: "Three timed airlocks", mode: "hybrid", outcome: "success", instruction: "Push the red disk to the exit", seed: 820000, steps: 76, pushes: 59, waits: 2 }
+    ];
+
+    const nav = document.getElementById("cases");
+    function selectRun(index) {
+      const run = runs[index];
+      document.getElementById("title").textContent = run.title;
+      document.getElementById("film").src = `media/${run.file}`;
+      document.getElementById("film").alt = `${run.scene}: ${run.outcome}, ${run.steps} actions`;
+      document.getElementById("stats").innerHTML = [["actions", run.steps], ["pushes", run.pushes], ["waits", run.waits], ["seed", run.seed]].map(([name, value]) => `<div class="stat"><strong>${value}</strong><span>${name}</span></div>`).join("");
+      document.getElementById("caption").textContent = `${run.instruction}. ${run.mode === "hybrid" ? "The network reads the scene; A* plans with the known simulator rules." : "The neural policy predicts the actions directly, with no route planner."}`;
+      [...nav.children].forEach((button, i) => button.classList.toggle("selected", i === index));
+    }
+    runs.forEach((run, index) => {
+      const button = document.createElement("button");
+      button.type = "button";
+      button.innerHTML = `${run.title}<small>${run.scene} · ${run.mode} · ${run.outcome}</small>`;
+      button.addEventListener("click", () => selectRun(index));
+      nav.appendChild(button);
+    });
+    selectRun(0);
+  </script>
+</body>
+</html>

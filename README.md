@@ -1,28 +1,64 @@
 # Mini-VLA Maze
 
-Can a small vision-and-language policy push the requested object through a maze without hitting the others? This project tests that question in a 2D simulator with static walls, moving barriers and timed gates.
+**A small vision-language-action model for pushing a requested object through a maze.** Give it an image and an instruction such as “push the green disk to the exit”; it must identify the right object and move it without hitting the others.
 
-![A learned visual map guides A* through three timed passages](media/viewer_airlocks.gif)
+This is a compact, inspectable VLA-style experiment, not a general-purpose robot model. It uses a fixed instruction grammar and a 2D simulator, so the language and dynamics are deliberately constrained.
 
-*The demo uses the network to read the scene, then A* to plan around the timed gates. The network itself does not generate this route.*
+## The experiment, step by step
 
-## What the results show
+### 1. Predict the next move
 
-![Benchmark scenes and episode success](media/benchmark_illustrated.png)
+The direct policy sees the scene and instruction, then predicts one of five moves. It can solve some simple layouts:
 
-Each panel shows one maze and the fraction of 16 solvable scenes completed. Blue and purple are direct action predictions; green is learned perception followed by A*; grey is the simulator's oracle planner. The error bars are 95% Wilson intervals. The direct policy succeeds on 0–5 scenes per layout, while the hybrid completes all 16 in these small test sets. Layouts marked `*` were held out during training.
+![Direct neural policy: successful baffles episode](media/viewer_baffles_direct_success.gif)
+
+But a good-looking episode hides how brittle the policy is. On the same 16-scene-per-suite benchmark, it completes only **19 of 112** episodes with one-step actions. Here is a representative timeout:
+
+![Direct policy: repeated blocked moves](media/viewer_baffles_direct_timeout.gif)
+
+### 2. Predict a short action chunk
+
+The model can also predict four moves at once. That means fewer chances to query the network, but the robot cannot correct an early mistake until the chunk ends. In this run, chunking lowered success to **11/112**. The learning curves show why: validation action accuracy reaches 86.9%, leaving errors that can accumulate during a long push.
 
 ![Training losses and validation accuracy](media/learning.png)
 
-The model learns target and object locations almost perfectly on validation frames, but next-action accuracy levels off at 86.9%. That gap helps explain why good visual grounding does not guarantee a successful multi-step push. More results, failure cases and limitations are in [RESULTS.md](RESULTS.md).
+### 3. Use the learned scene map to plan
 
-## How it works
+The network also predicts the target location and a semantic map of the grid. A separate A* planner can use that map and the simulator’s known movement rules to find a complete route. This hybrid completed **112/112** accepted small-maze scenes. The gain comes from explicit search, not from a better action head.
 
-A compact network reads a rendered image and a short instruction. It predicts the target cell, a semantic grid and a short action chunk. We compare its direct actions with a hybrid controller that runs A* over the network's predicted grid using the simulator's known movement rules. The hybrid's maze-solving ability comes from A*, not from a learned action policy.
+![Hybrid controller waits for the timed gate](media/viewer_gate_hybrid_success.gif)
 
-![Model architecture](media/paper_architecture.png)
+The benchmark below compares direct one-step actions, four-action chunks, the learned-map + A* system, and an oracle with ground-truth state. Each scene has 16 accepted, solvable episodes; whiskers show 95% Wilson intervals. The two starred layouts were held out during training.
 
-The model has 401,729 parameters and is trained on synthetic expert demonstrations. This is a small, controlled simulation: it does not model robot hardware, force control or real-world camera variation.
+![Scenes and success rates for the small-maze benchmark](media/benchmark_illustrated.png)
+
+### 4. Reuse visual perception on larger maps
+
+On 25×25 maps, the convolutional visual heads still produce a semantic grid. The fixed-size action head is not used; A* plans with the same known simulator rules. All **18/18** accepted episodes succeeded across switchback, catacombs and airlocks. These are small, solvable test sets—not evidence of general robot control.
+
+![A route through nine connected rooms](media/viewer_catacombs.gif)
+
+### 5. Three airlocks
+
+The final scene puts three timed gates in one route. The recorded run takes **76 actions**, including **59 pushes and two waits**, with no collisions. The model reads the scene; the planner computes this route.
+
+![Three timed airlocks: the final demonstration](media/viewer_airlocks.gif)
+
+## Why this counts as a VLA-style model
+
+The model connects all three parts of the term:
+
+| Part | Input or output in this project |
+|---|---|
+| **Vision** | An 88×88 RGB image, divided into an 11×11 grid of visual features. |
+| **Language** | A short instruction parsed into colour and shape IDs, then represented by learned embeddings. It is a fixed grammar, not a general text encoder. |
+| **Action** | Five discrete actions—up, right, down, left or wait—predicted as a four-step chunk. |
+
+It also predicts a target-attention map and per-cell semantic labels. The obstacle phase is supplied as a small simulator state input. The hybrid controller passes the learned target and map to A*; A* uses programmed movement and obstacle rules. It does not use the neural action prediction to produce the displayed route.
+
+![Architecture with tensor dimensions](media/paper_architecture.png)
+
+The network has 401,729 parameters and learns from synthetic expert demonstrations. It has no pretrained language model, no transformer decoder and no reinforcement-learning objective. [Methods and protocol](docs/METHODS.md) explain the implementation and evaluation; [RESULTS.md](RESULTS.md) includes stress tests, uncertainty and failure analysis.
 
 ## Run it
 
@@ -34,6 +70,4 @@ python -m unittest discover -s tests -v
 python -m mini_vla_maze.demo --kind gate --controller hybrid
 ```
 
-The trained checkpoint and recorded results are included. Open [`gallery.html`](gallery.html) locally to browse the saved episodes, or start with [notebook 02](notebooks/02_maze_lab.ipynb). [Reproduction steps](docs/REPRODUCE.md) include retraining and Colab validation.
-
-The detailed [methods report](docs/METHODS.md) describes the data, architecture and evaluation protocol. [Environment guide](docs/ENVIRONMENTS.md) explains the obstacles; [applications](docs/APPLICATIONS.md) discusses what would need to change for a real robot.
+The checkpoint and recorded episodes are included. Open [`gallery.html`](gallery.html) locally to browse the GIFs in order; [GALLERY.md](GALLERY.md) lists every demonstration. You can also start with [notebook 02](notebooks/02_maze_lab.ipynb). [Reproduction steps](docs/REPRODUCE.md) cover training and Colab validation.
